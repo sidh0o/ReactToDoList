@@ -1,0 +1,94 @@
+.Header{
+    font-size: 1.5em;
+    font-weight: 900;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh auto;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    font-family: cursive;
+
+}
+
+
+.todoform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.forminput{
+    font-family: cursive;
+    margin:10px 0;
+    height: 4vh;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.forminput:hover{
+    border: royalblue 2px solid;
+
+}
+
+.formbutton{
+    font-family: cursive;
+    margin:5px 0;
+    height: 4vh;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 100%;
+    align-self: center;
+}
+
+
+.todoitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:2px solid orange;
+    width: 40vw;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 5px;
+
+}
+
+.todoitem1{
+    width: 10%;
+    font-size: 2em;
+    
+    
+    
+    font-family: cursive;
+}
+.todoitem2{
+    width: 10%;
+    position: absolute;
+    right: 44px;
+}
+.todoitem2button{
+    width: 4em;
+    height: 1.5em;
+    border: 2px solid royalblue;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 400;
+    font-family: cursive;
+    font-size: 1.4em;
+    border-radius: 10px;
+}
